@@ -6,7 +6,7 @@
 
 ## 實際測試結果
 
-![測試結果](image/ROI.png) ![測試結果2](image/enhanced_image.png)
+![輸入](image/input.png) ![輸出](image/enhanced.png)
 
 ## Requirements
 
