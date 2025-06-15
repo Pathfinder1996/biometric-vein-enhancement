@@ -1,23 +1,24 @@
 # Biometric-Vein-Enhancement
 
-## Introduction
-參考資料如下
-1. IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
+### Reference
+- IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
 
-## 實際測試結果
+### Contents
+- `vein_enhance.py` - Main enhancement script  
+- `requirements.txt` - Environment dependencies
 
-![輸入](image/input.png) ![輸出](image/enhanced.png)
+## Sample Result
 
-## Requirements
+| Input Image | Enhanced Output |
+|-------------|-----------------|
+| ![Input](image/input.png) | ![Enhanced](image/enhanced.png) |
 
-python==3.9.2
-opencv-python==4.5.3.56
-numpy==1.26.4
-matplotlib==3.8.0
-
-## Getting Started
-將 image_path 替換為您想測試的圖片後，輸入以下指令建立環境與執行程式
+## Getting Start
+To set up the environment (optional if already installed), run:
 ```
 pip install -r .\requirements.txt
+```
+Replace image_path in vein_enhance.py with your input image path, then run:
+```
 python .\vein_enhance.py 
 ```
