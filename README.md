@@ -1,4 +1,4 @@
-## 📝 Biometric-Vein-Enhancement
+## 📝 Biometric Vein Enhancement
 
 ### 🔗 Reference
 - IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
