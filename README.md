@@ -4,8 +4,8 @@
 - IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
 
 ### 📁 Contents
-- `vein_enhance.py` - primary execution script
-- `requirements.txt` - lists environment dependencies
+- `vein_enhance.py` - primary execution script.
+- `requirements.txt` - lists environment dependencies.
 
 ## 📊 Sample Result
 
