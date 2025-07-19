@@ -1,6 +1,6 @@
 ## 📝 靜脈特徵增強演算法
 
-使用 Python 實現的靜脈特徵增強演算法。
+使用 Python 實現參考文獻的靜脈特徵增強演算法。
 
 ### 🔗 參考文獻
 - IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
