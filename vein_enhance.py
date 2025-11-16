@@ -43,7 +43,7 @@ def AGC(src, gamma, isAutoMode=True):
 
     return cv2.LUT(src, lut)
 
-# Vein enhancement (fully matched with C++)
+# Vein enhancement
 def enhanceVein(src):
 
     if src is None or src.size == 0:
