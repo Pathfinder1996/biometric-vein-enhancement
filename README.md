@@ -24,4 +24,6 @@ python .\vein_enhance.py
 The enhanced image will be saved to the output path defined in the script.
 
 ## Reference
-[1] IEEE Transactions on Industrial Informatics: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
+[1] S.-J. Horng, D.-T.Vu, T.-V. Nguyen,W. Zhou, and C.-T. Lin, ‘‘Recognizing
+palm vein in smartphones using RGB images,’’ *IEEE Trans. Ind. Informat.*,
+vol. 18, no. 9, pp. 5992–6002, Sep. 2022, doi: 10.1109/TII.2021.3134016.
