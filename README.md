@@ -1,26 +1,27 @@
-## 📝 靜脈特徵增強演算法
+## Vein Feature Enhancement Algorithm
 
-使用 Python 實現參考文獻的靜脈特徵增強演算法。
+This repository provides a Python implementation of the vein enhancement method proposed by Hong et al [1].
 
-### 🔗 參考文獻
-- IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
+## Contents
+- `vein_enhance.py` - Main implementation of the enhancement algorithm.
+- `requirements.txt` - Python 3.9.2 dependency list.
 
-### 📁 壓所檔內容
-- `vein_enhance.py` - 主程式
-- `requirements.txt` - Python3.9.2 用到的函式庫及其版本
+## Example Results (Click the thumbnails to enlarge)
 
-## 📊 測試結果 (點擊縮圖可放大)
-
-| 輸入影像 | 靜脈增強結果 |
+| Input Image | Enhanced Result |
 |-------------|-----------------|
 | ![Input](image/input.png) | ![Enhanced](image/enhanced.png) |
 
-## 🚀 如何使用
-請輸入以下指令建置 Python3.9.2 環境用到的函式庫及其版本:
+## How to Use
+Install the required Python packages:
 ```
 pip install -r .\requirements.txt
 ```
-請將 `vein_enhance.py` 中的變數 `image_path` 替換為您想測試的靜脈影像，並輸入以下指令執行程式:
+Set the variable `image_path` inside `vein_enhance.py` to your test image, then run:
 ```
 python .\vein_enhance.py 
 ```
+The enhanced image will be saved to the output path defined in the script.
+
+## Reference
+[1] IEEE Transactions on Industrial Informatics: [Recognizing Palm Vein in Smartphones Using RGB Images](https://ieeexplore.ieee.org/document/9648012)
