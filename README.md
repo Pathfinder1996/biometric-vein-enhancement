@@ -1,6 +1,6 @@
 ## Vein Feature Enhancement Algorithm
 
-This repository provides a Python implementation of the vein enhancement method proposed by Hong et al [1].
+This repository provides a Python implementation of the vein enhancement method proposed by Hong *et al* [1].
 
 ## Contents
 - `vein_enhance.py` - Main implementation of the enhancement algorithm.
