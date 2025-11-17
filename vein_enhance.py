@@ -57,10 +57,10 @@ def enhanceVein(src):
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(4, 4))
     src = clahe.apply(src)
 
-    # 3. Convert to float64 (same as C++)
+    # 3. Convert to float64
     src = src.astype(np.float64) / 255.0
 
-    # 4. GaussianBlur sigma=3 (same as C++)
+    # 4. GaussianBlur sigma=3
     src = cv2.GaussianBlur(src, (0, 0), sigmaX=3)
 
     # 5. Laplacian (same parameters)
